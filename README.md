@@ -13,14 +13,14 @@ representation so that the same construction process can create
  more resiliency in our design and development.
  
  ## enjoy beautiful and declarative code:
-<code/>Request request=new Request();
-         request.setName("Henk")
-                  .setPrice(100)
-                  .setCalendar(cal1)
-                 .addPolicy(POLICY.BYNAME)
-                  .addPolicy(POLICY.BYTHURSDAY)
-                .build();
- </code>      
+<p>Request request=new Request();
+<p>request.setName("Henk")
+<p>.setPrice(100)
+<p>.setCalendar(cal1)
+<p>.addPolicy(POLICY.BYNAME)
+<p>.addPolicy(POLICY.BYTHURSDAY)
+<p>.build();
+    
  ### Isn't it familiar?
  Yes, If you look at apache camel for implementing 
  enterprise integration patterns ,you notice the dots ....
